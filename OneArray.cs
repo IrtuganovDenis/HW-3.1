@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,11 +17,11 @@ namespace ConsoleApp14
             n = N;
             b = B;
             a = new int[n];
+            Fill();
         }
 
         public static void FillByUser()
         {
-
             for (int i = 0; i < n; i++)
             {
                 a[i] = int.Parse(Console.ReadLine());
@@ -80,6 +80,7 @@ namespace ConsoleApp14
                     z++;
                 }
             }
+
             int[] b = new int[z];
             int j = 0;
             for (int i = 0; i < a.Length; i++)
