@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace ConsoleApp14
 { 
@@ -21,7 +21,6 @@ namespace ConsoleApp14
             int t = int.Parse(Console.ReadLine());
             bool b = t == 1 ? true : false;
             OneArray one = new OneArray(n, b);
-            one.Fill();
             Console.WriteLine("Среднее значение в массиве:");
             one.Mid_value();
             Console.WriteLine("Массив с элементами меньшими 100 по модулю:");
@@ -39,7 +38,6 @@ namespace ConsoleApp14
             int t = int.Parse(Console.ReadLine());
             bool b = t == 1 ? true : false;
             DoubleArray two = new DoubleArray(n, m, b);
-            two.Fill();
             Console.WriteLine("Среднее значение в массиве:");
             two.Mid_value();
             Console.WriteLine("Матрица:");
@@ -54,7 +52,6 @@ namespace ConsoleApp14
             int t = int.Parse(Console.ReadLine());
             bool b = t == 1 ? true : false;
             StepArray step = new StepArray(n, b);
-            step.Fill();
             Console.WriteLine("Среднее значение в массиве:");
             step.Total_mid_value();
             Console.WriteLine("Среднее значение в каждом подмассиве:");
