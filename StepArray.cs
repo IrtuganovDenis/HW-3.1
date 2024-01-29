@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -18,6 +18,7 @@ namespace ConsoleApp14
             n = N;
             b = B;
             a = new int[n][];
+            Fill();
         }
         public static void FillByUser()
         {
