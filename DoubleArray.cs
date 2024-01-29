@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic.FileIO;
+using Microsoft.VisualBasic.FileIO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +20,7 @@ namespace ConsoleApp14
             b = B;
             m = M;
             a = new int[n, m];
+            Fill();
         }
 
         public static void FillByUser()
